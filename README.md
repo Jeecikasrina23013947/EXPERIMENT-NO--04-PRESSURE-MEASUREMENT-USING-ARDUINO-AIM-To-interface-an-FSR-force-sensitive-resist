@@ -84,6 +84,7 @@ The easiest way to measure a resistive sensor is to connect one end to power and
 ### PROGRAM 
  *your roll no:212223100015
  * your name :JEECIKASRINA M
+ * 
  * department and year :CSE(CYBER SECURITY)
 
  ```
@@ -122,7 +123,7 @@ void loop()
 ![robo](https://github.com/Jeecikasrina23013947/EXPERIMENT-NO--04-PRESSURE-MEASUREMENT-USING-ARDUINO-AIM-To-interface-an-FSR-force-sensitive-resist/assets/148515300/16d28b2a-999f-432e-8079-52ff2c1be969)
 
 
-![image](https://user-images.githubusercontent.com/36288975/188804653-a3154e8e-2655-46f2-9dcd-f425dd1ba109.png)
+![2](https://github.com/Jeecikasrina23013947/EXPERIMENT-NO--04-PRESSURE-MEASUREMENT-USING-ARDUINO-AIM-To-interface-an-FSR-force-sensitive-resist/assets/148515300/1931f05d-7f26-4b8f-a6d2-b9ada9942110)
 
 
 ### TABLE -02 standard deviation table 
