@@ -62,7 +62,9 @@ The easiest way to measure a resistive sensor is to connect one end to power and
 
 
 ### FIGURE-03 CIRCUIT DIAGRAM
+![WhatsApp Image 2024-02-22 at 11 14 29_ef9e6cb4](https://github.com/Jeecikasrina23013947/EXPERIMENT-NO--04-PRESSURE-MEASUREMENT-USING-ARDUINO-AIM-To-interface-an-FSR-force-sensitive-resist/assets/148515300/d2fb0665-1418-4ce4-bc46-8221b9c67a9f)
 
+![WhatsApp Image 2024-03-01 at 21 40 23_d3ceb4c5](https://github.com/Jeecikasrina23013947/EXPERIMENT-NO--04-PRESSURE-MEASUREMENT-USING-ARDUINO-AIM-To-interface-an-FSR-force-sensitive-resist/assets/148515300/4ecd5d28-4dba-491f-bff1-734a461b5365)
 
 
 ### PROCEDURE:
@@ -79,24 +81,44 @@ The easiest way to measure a resistive sensor is to connect one end to power and
 
 
 ### PROGRAM 
- *your roll no 
- * your name 
- * department and year 
+ *your roll no:212223100015
+ * your name :JEECIKASRINA M
+ * department and year :CSE(CYBER SECURITY)
+
+ ```
+ int fsr;
+int LED = 7;
+float m;
+void setup()
+{
+ pinMode(LED, OUTPUT);
+ Serial.begin(9600);
+}
+
+void loop()
+{
+ fsr=analogRead(A0);
+ Serial.print("Raw value = ");
+ Serial.println(fsr);
+ delay(1000);
+ m=map(fsr,0,159,0,10);
+ Serial.print("Mapped value = ");
+ Serial.println(m);
+ delay(1000);
  
+ if(m>5)
+ {
+   digitalWrite(LED,HIGH);
+   delay(500);
+   digitalWrite(LED,LOW);
+   delay(500);
+ }
+}
  
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
- 
+```
+
+![robo](https://github.com/Jeecikasrina23013947/EXPERIMENT-NO--04-PRESSURE-MEASUREMENT-USING-ARDUINO-AIM-To-interface-an-FSR-force-sensitive-resist/assets/148515300/3c76b759-10b6-4cc3-b01f-930eed61b932)
+
 
 ![image](https://user-images.githubusercontent.com/36288975/188804653-a3154e8e-2655-46f2-9dcd-f425dd1ba109.png)
 
@@ -120,16 +142,6 @@ EX:           μ = (1+3+4+7+8) / 5 = 4.6
 
 
 
+### RESULTS :
 
-
-
-
-
-
-
-
-
-
-
-
-### RESULTS : Arduino uno is interfaced with FSR and output values are indicated on a graph.
+Arduino uno is interfaced with FSR and output values are indicated on a graph.
