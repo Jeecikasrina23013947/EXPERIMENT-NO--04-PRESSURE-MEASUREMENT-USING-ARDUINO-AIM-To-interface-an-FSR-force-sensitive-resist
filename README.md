@@ -1,9 +1,10 @@
 # EXPERIMENT-NO--03-PRESSURE-MEASUREMENT-USING-ARDUINO-AIM-To-interface-an-FSR-force-sensitive-resistor
 
-# DATE :
-# NAME :
-# ROLLNUMBER :
-# DEPARTMENT
+# DATE :29.02.2024
+# NAME :JEECIKASRINA M
+# ROLLNUMBER :21222100015
+# DEPARTMENT:COMPUTER SCIENCE AND ENGINEERING(CYBER SECURITY)
+
 ## AIM: 
 To interface an FSR(force sensitive resistor) and scale the output voltage obtained to pressure applied 
  
@@ -117,7 +118,8 @@ void loop()
  
 ```
 
-![robo](https://github.com/Jeecikasrina23013947/EXPERIMENT-NO--04-PRESSURE-MEASUREMENT-USING-ARDUINO-AIM-To-interface-an-FSR-force-sensitive-resist/assets/148515300/3c76b759-10b6-4cc3-b01f-930eed61b932)
+
+![robo](https://github.com/Jeecikasrina23013947/EXPERIMENT-NO--04-PRESSURE-MEASUREMENT-USING-ARDUINO-AIM-To-interface-an-FSR-force-sensitive-resist/assets/148515300/16d28b2a-999f-432e-8079-52ff2c1be969)
 
 
 ![image](https://user-images.githubusercontent.com/36288975/188804653-a3154e8e-2655-46f2-9dcd-f425dd1ba109.png)
